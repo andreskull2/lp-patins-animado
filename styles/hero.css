@@ -1,0 +1,41 @@
+section.hero {
+    max-width: 80rem;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    margin-inline: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+section.hero h1 {
+    max-width: 40rem;
+}
+
+section.hero h1 div {
+    display: inline-block;
+    /* overflow: hidden;
+    height: 5rem; */
+    width: min-content;
+    vertical-align: bottom;
+}
+
+section.hero h1 span:nth-child(1),
+section.hero h1 span:nth-child(4) {
+    color: var(--snitap-sky-mid);
+}
+
+section.hero h1 span:nth-child(2) {
+    color: var(--snitap-joy-mid);
+}
+
+section.hero h1 span:nth-child(3) {
+    color: var(--snitap-leaf-mid);
+}
+
+section.hero h1 span {
+    display: block;
+}
+

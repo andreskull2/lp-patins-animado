@@ -6,3 +6,6 @@ Neste vídeo, preparamos o projeto no Visual Studio Code, configuramos o ambient
 
 ## Adicionando o Header
 Nesta aula, abordo a criação de um header com logo e botão de carrinho. Explico como adicionar ícones, criar tags para acessibilidade e aplicar animações com CSS. Destaco a importância de detalhes como descrições para SEO e acessibilidade. Demonstro a aplicação de estilos CSS para o header, imagens e elementos de texto. Finalizo revisando as configurações e cores.
+
+## Animando o Título
+Neste vídeo, abordo a criação de animações em CSS para um título de seção. Divido a animação em partes, explicando cada transformação e estratégia utilizada. Demonstro a criaçnao de keyframes, a definição de pontos de mudança e a aplicação de animações para cada parte do título. Destaco a importância de tentativa e erro no processo de desenvolvimento. Ao final, realizo a adição do código no Git para versionamento.

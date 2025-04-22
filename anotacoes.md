@@ -24,3 +24,6 @@ Nesta aula, é abordado o desenvolvimento de uma galeria de fotos utilizando Gri
 
 ## Adicionando o rodapé
 A aula aborda a criação de um layout de navegação e rodapé em um site. São detalhados aspectos como a estilização dos elementos, uso de flexbox, posicionamento absoluto, transições e interações de hover. O instrutor explica a estrutura HTML e CSS, destacando a importância de detalhes como alinhamento, tamanhos e transições suaves.
+
+## Publicando no GitHub e despedida
+Essa aula não teve conteúdo. Devo ignorá-la no momento porque preciso fazer a adaptação do projeto para o formato do mobile. Farei após o exercício.

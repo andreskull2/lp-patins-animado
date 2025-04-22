@@ -12,3 +12,6 @@ Neste vídeo, abordo a criação de animações em CSS para um título de seçã
 
 ## Botões da seção Hero
 Nesta aula, eu explico como criar botões interativos em um site. Demonstro como aplicar efeitos visuais, como sombras e transições, para melhorar a experiência do usuário. Também mostro como utilizar propriedades como Display Flex, alinhamento de itens e cores de fundo. Além disso, ensino a aplicar efeitos de escala ao passar o mouse sobre os botões, utilizando a propriedade Scale e a função Transition. Ao final, destaco a importância de verificar a compatibilidade com diferentes navegadores.
+
+## Animando a imagem da Hero Section
+O vídeo aborda a criação de uma animação de entrada com elementos como elipse, patins e estrelas. O instrutor demonstra a organização dos elementos em divs, posicionamento e animações com keyframes. Detalhes como largura, altura, opacidade e deslocamento dos elementos são discutidos. São utilizadas propriedades como transform, translateX e z-index. A ordem de entrada dos elementos e a sincronização das animações são destacadas, com dicas para adaptação responsiva.

@@ -54,16 +54,20 @@ section.hero .buttons .button {
     border-radius: 5rem;
 }
 
-section.hero .buttons .buy {
+section.hero .buttons .button.buy {
     padding: 1.5rem 3rem;
     background-color: var(--snitap-sun);
 }
 
-section.hero .buttons .play span {
+section.hero .buttons .button.play span {
     padding: 1.5rem;
     border-radius: 50%;
     background-color: white;
     display: flex;
+}
+
+section.hero .buttons .button:hover {
+    scale: 1.1;
 }
 
 section.hero .buttons .shadow {

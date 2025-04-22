@@ -52,6 +52,7 @@ section.hero .buttons .button {
     align-items: center;
     gap: 0.75rem;
     border-radius: 5rem;
+    transition: scale 350ms;
 }
 
 section.hero .buttons .button.buy {

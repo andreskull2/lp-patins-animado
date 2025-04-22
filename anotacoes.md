@@ -15,3 +15,7 @@ Nesta aula, eu explico como criar botões interativos em um site. Demonstro como
 
 ## Animando a imagem da Hero Section
 O vídeo aborda a criação de uma animação de entrada com elementos como elipse, patins e estrelas. O instrutor demonstra a organização dos elementos em divs, posicionamento e animações com keyframes. Detalhes como largura, altura, opacidade e deslocamento dos elementos são discutidos. São utilizadas propriedades como transform, translateX e z-index. A ordem de entrada dos elementos e a sincronização das animações são destacadas, com dicas para adaptação responsiva.
+
+## Faixa rotativa
+Não teve conteúdo de anotações.
+

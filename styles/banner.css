@@ -1,0 +1,26 @@
+.banner {
+    width: 100%;
+    padding-block: 2.5rem;
+    overflow: hidden;
+}
+
+.banner .scroller {
+    width: 100%;
+    overflow: hidden;
+    padding-block: 1rem;
+}
+
+.banner .rolling {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.banner .bg-gradient-animate {
+    background: linear-gradient(
+        45deg,
+        var(--snitap-sky-light),
+        var(--snitap-joy-light)
+    );
+    background-size: 400%;
+    background-position: 0 50%;
+}

@@ -1,0 +1,79 @@
+section.gallery {
+    width: 100%;
+    max-width: 80rem;
+    padding: 2.5rem 2rem;
+    margin-inline: auto;
+}
+
+section.gallery header {
+    text-align: center;
+}
+
+section.gallery header span {
+    font: 500 var(--text-sm) / 1.5 var(--ff-base);
+}
+
+section.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+section.gallery .content {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-areas:
+    "A B B"
+    "C C D";
+    gap: 2.5rem;
+}
+
+section.gallery figure {
+    position: relative;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    line-height: 0;
+}
+
+section.gallery figure > img {
+    height: 25rem;
+    object-fit: cover;
+}
+
+section.gallery figure:nth-child(1) {
+    grid-area: A;
+}
+
+section.gallery figure:nth-child(2) {
+    grid-area: B;
+}
+
+section.gallery figure:nth-child(3) {
+    grid-area: C;
+}
+
+section.gallery figure:nth-child(4) {
+    grid-area: D;
+}
+
+section.gallery figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+
+    font: 500 var(--text-sm) / 1.5 var(--ff-base);
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    padding: 1.5rem 2rem;
+}
+
+section.gallery figcaption > img {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}

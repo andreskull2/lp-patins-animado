@@ -21,3 +21,6 @@ Não teve conteúdo de anotações.
 
 ## Galeria de fotos animada com scroll
 Nesta aula, é abordado o desenvolvimento de uma galeria de fotos utilizando Grid e animações. O instrutor demonstra a criação de uma estrutura HTML com imagens e legendas, estilização com CSS, e a aplicação de animações ao passar o mouse sobre as imagens. São detalhados aspectos como posicionamento, transições, e a utilização de keyframes para criar efeitos visuais. O instrutor também menciona a importância de considerar a compatibilidade com diferentes navegadores.
+
+## Adicionando o rodapé
+A aula aborda a criação de um layout de navegação e rodapé em um site. São detalhados aspectos como a estilização dos elementos, uso de flexbox, posicionamento absoluto, transições e interações de hover. O instrutor explica a estrutura HTML e CSS, destacando a importância de detalhes como alinhamento, tamanhos e transições suaves.

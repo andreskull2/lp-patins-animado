@@ -9,3 +9,6 @@ Nesta aula, abordo a criação de um header com logo e botão de carrinho. Expli
 
 ## Animando o Título
 Neste vídeo, abordo a criação de animações em CSS para um título de seção. Divido a animação em partes, explicando cada transformação e estratégia utilizada. Demonstro a criaçnao de keyframes, a definição de pontos de mudança e a aplicação de animações para cada parte do título. Destaco a importância de tentativa e erro no processo de desenvolvimento. Ao final, realizo a adição do código no Git para versionamento.
+
+## Botões da seção Hero
+Nesta aula, eu explico como criar botões interativos em um site. Demonstro como aplicar efeitos visuais, como sombras e transições, para melhorar a experiência do usuário. Também mostro como utilizar propriedades como Display Flex, alinhamento de itens e cores de fundo. Além disso, ensino a aplicar efeitos de escala ao passar o mouse sobre os botões, utilizando a propriedade Scale e a função Transition. Ao final, destaco a importância de verificar a compatibilidade com diferentes navegadores.

@@ -220,4 +220,187 @@ section.hero > div:nth-child(2) img[src*='stars-2'] {
     }
 }
 
+@media (max-width: 72em) {
+    section.hero > div {
+        max-width: 20rem;
+    }
 
+    section.hero > div h1 {
+        font-size: 3rem;
+    }
+
+    section.hero > div h1 > div {
+        height: 3.75rem;
+    }
+
+    section.hero .buttons {
+        flex-direction: column;
+    }
+
+    section.hero > div:nth-child(2) {
+        max-width: 25.5rem;
+        height: 25.5rem;
+    }
+
+    @keyframe slideUp {
+        0%,
+        22% {
+        transform: translateY(0);
+        }
+ 
+     /* Bounce-in animation for first step */
+        23% {
+        transform: translateY(calc(-3.75rem - 11.25px));
+        }
+       
+        25% {
+        transform: translateY(calc(-3.75rem + 6.25px));
+       }
+
+       27% {
+        transform: translateY(calc(-3.75rem - 1.25px));
+       }
+       
+       29% {
+        transform: translateY(calc(-3.75rem + 1.25px));
+       }
+       
+       33%,
+       55% {
+        transform: translateY(-3.75rem);
+       }
+   
+     /* Bounce-in animation for second step */
+        56% {
+        transform: translateY(calc(-7.5rem - 11.25px));
+        }
+        
+        58% {
+         transform: translateY(calc(-7.5rem + 6.25px));
+        }
+        
+        60% {
+        transform: translateY(calc(-7.5rem - 1.25px));
+        }
+        
+        62% {
+        transform: translateY(calc(-7.5rem + 1.25px));
+        }  
+ 
+     /* Bounce-in animation for third step */
+        66%,
+        88% {
+        transform: translateY(-7.5rem);
+        }
+        
+        89% {
+        transform: translateY(calc(-11.25rem - 11.25px));
+        }
+        
+        91% {
+        transform: translateY(calc(-11.25rem + 6.25px));
+        }
+        
+        93% {
+        transform: translateY(calc(-11.25rem - 1.25px));
+        }
+     
+        95% {
+        transform: translateY(calc(-11.25rem + 1.25px));
+        }
+        
+        100% {
+        transform: translateY(-11.25rem);
+        }  
+    }
+}
+
+@media (max-width: 56em) {
+    section.hero {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding: 1.5rem 1.5rem 3rem;
+      gap: 2rem;
+    }
+  
+    section.hero > div h1 {
+      font-size: 2rem;
+      max-width: 19.5rem;
+    }
+  
+    section.hero > div h1 > div {
+      height: 2.5rem;
+    }
+  
+    section.hero .buttons {
+      display: flex;
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+  
+    section.hero > div:nth-child(2) {
+      max-width: 19.5rem;
+      height: 19.5rem;
+    }
+  
+    @keyframes slideUp {
+      0%,
+      22% {
+        transform: translateY(0);
+      }
+  
+      /* Divertida Bounce-in event */
+      23% {
+        transform: translateY(calc(-2.5rem - 12.5px));
+      }
+      25% {
+        transform: translateY(calc(-2.5rem + 7.5px));
+      }
+      27% {
+        transform: translateY(calc(-2.5rem - 2.5px));
+      }
+      29% {
+        transform: translateY(calc(-2.5rem + 2.5px));
+      }
+      33%,
+      55% {
+        transform: translateY(-2.5rem);
+      }
+  
+      /* Divertida Bounce-in event */
+      56% {
+        transform: translateY(calc(-5rem - 12.5px));
+      }
+      58% {
+        transform: translateY(calc(-5rem + 7.5px));
+      }
+      60% {
+        transform: translateY(calc(-5rem - 2.5px));
+      }
+      62% {
+        transform: translateY(calc(-5rem + 2.5px));
+      }
+  
+      /* Saudável Bounce-in event */
+      66%,
+      88% {
+        transform: translateY(-5rem);
+      }
+      89% {
+        transform: translateY(calc(-7.5rem - 12.5px));
+      }
+      91% {
+        transform: translateY(calc(-7.5rem + 7.5px));
+      }
+      93% {
+        transform: translateY(calc(-7.5rem - 2.5px));
+      }
+      95% {
+        transform: translateY(calc(-7.5rem + 2.5px));
+      }
+      100% {
+        transform: translateY(-7.5rem);
+      }
+    }
+  }

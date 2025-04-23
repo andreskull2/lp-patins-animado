@@ -110,3 +110,37 @@ section.gallery figcaption > img {
         transform: translateY(100%);
     }
 }
+
+@media (max-width: 64em) {
+    section.gallery .content {
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+        grid-template-areas:
+        "A B"
+        "C D";
+    }
+}
+
+@media (max-width: 48em) {
+    section.gallery {
+        padding: 1.5rem 1.5rem;
+    }
+
+    section.gallery header h2 {
+        font-size: 2rem;
+    }
+
+    section.gallery header span {
+        font: 500 0.75rem / 1.5 var(--ff-base);
+    }
+
+    section.gallery .content {
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+        grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D";
+    }
+}

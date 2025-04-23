@@ -33,7 +33,7 @@ Highlights:
 - Clear separation between the static structure and the animation phase, improving comprehension and organization
 - Final challenge: adaptation for smaller screen formats
 
-- [Access the finished project]()
+- [Access the finished project](https://andreskull2.github.io/lp-patins-animado/)
 - [Watch the course](https://www.rocketseat.com.br/formacao/fullstack)
 
 ## 🔖 Layout

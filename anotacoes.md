@@ -29,3 +29,8 @@ A aula aborda a criação de um layout de navegação e rodapé em um site. São
 Essa aula não teve conteúdo. Devo ignorá-la no momento porque preciso fazer a adaptação do projeto para o formato do mobile. Farei após o exercício.
 
 ## Adicionando as medias queries para formatos de tela pequena
+
+## Adicionando o Readme e descrição curta
+Este é o link para o projeto em funcionamento
+https://andreskull2.github.io/lp-patins-animado/
+

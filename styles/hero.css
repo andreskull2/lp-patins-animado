@@ -242,7 +242,7 @@ section.hero > div:nth-child(2) img[src*='stars-2'] {
         height: 25.5rem;
     }
 
-    @keyframe slideUp {
+    @keyframes slideUp {
         0%,
         22% {
         transform: translateY(0);
